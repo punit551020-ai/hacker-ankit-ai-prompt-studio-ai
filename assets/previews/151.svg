@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6a7cff"/><stop offset="1" stop-color="#111827"/></linearGradient>
-<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
-<rect width="1000" height="560" fill="#07070b"/>
-<rect x="10" y="10" width="980" height="540" rx="34" fill="url(#g)"/>
-<g filter="url(#blur)"><circle cx="743" cy="439" r="38" fill="white" opacity="0.33"/><circle cx="309" cy="398" r="26" fill="white" opacity="0.38"/><circle cx="606" cy="95" r="70" fill="white" opacity="0.2"/><circle cx="432" cy="314" r="35" fill="white" opacity="0.44"/><circle cx="591" cy="143" r="29" fill="white" opacity="0.23"/><circle cx="909" cy="200" r="34" fill="white" opacity="0.24"/><circle cx="448" cy="83" r="55" fill="white" opacity="0.41"/><circle cx="125" cy="314" r="50" fill="white" opacity="0.24"/><circle cx="753" cy="537" r="71" fill="white" opacity="0.26"/><circle cx="126" cy="368" r="76" fill="white" opacity="0.44"/></g>
-<path d="M0 450 Q250 300 500 450 T1000 450 V560 H0Z" fill="#050509" opacity=".72"/>
-<text x="50" y="90" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="white" opacity=".85">ARCHITECTURE</text>
-<text x="50" y="470" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="white">AI IMAGE PREVIEW</text>
-<text x="50" y="510" font-family="Arial,sans-serif" font-size="18" fill="white" opacity=".75">Copy the prompt • Create your own image</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg151" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b2e"/>
+      <stop offset="100%" stop-color="#1f1424"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg151)" />
+  <circle cx="200" cy="110" r="45" fill="#ff007f" opacity="0.15" />
+  <path d="M200 75 C 215 75, 225 87, 225 102 C 225 117, 215 128, 200 128 C 185 128, 175 117, 175 102 C 175 87, 185 75, 200 75 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M145 220 C 145 160, 165 142, 200 142 C 235 142, 255 160, 255 220 L 270 300 L 130 300 Z" fill="#ffffff" opacity="0.75"/>
+  <rect x="15" y="15" width="370" height="270" rx="12" fill="none" stroke="#ff007f" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="25" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff007f">VIRAL AI PROMPT #151</text>
+  <text x="25" y="265" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">TRENDING GIRL PORTRAITS</text>
 </svg>

@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0b3d"/><stop offset="1" stop-color="#7f5cff"/></linearGradient>
-<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
-<rect width="1000" height="560" fill="#07070b"/>
-<rect x="10" y="10" width="980" height="540" rx="34" fill="url(#g)"/>
-<g filter="url(#blur)"><circle cx="529" cy="292" r="58" fill="white" opacity="0.47"/><circle cx="268" cy="504" r="54" fill="white" opacity="0.19"/><circle cx="344" cy="249" r="22" fill="white" opacity="0.62"/><circle cx="375" cy="120" r="56" fill="white" opacity="0.31"/><circle cx="213" cy="90" r="54" fill="white" opacity="0.64"/><circle cx="934" cy="459" r="23" fill="white" opacity="0.61"/><circle cx="85" cy="362" r="67" fill="white" opacity="0.15"/><circle cx="365" cy="292" r="67" fill="white" opacity="0.5"/><circle cx="128" cy="225" r="68" fill="white" opacity="0.29"/><circle cx="729" cy="491" r="28" fill="white" opacity="0.28"/></g>
-<path d="M0 450 Q250 300 500 450 T1000 450 V560 H0Z" fill="#050509" opacity=".72"/>
-<text x="50" y="90" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="white" opacity=".85">SPACE</text>
-<text x="50" y="470" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="white">AI IMAGE PREVIEW</text>
-<text x="50" y="510" font-family="Arial,sans-serif" font-size="18" fill="white" opacity=".75">Copy the prompt • Create your own image</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg50" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg50)" />
+  <circle cx="200" cy="110" r="45" fill="#ff3366" opacity="0.15" />
+  <path d="M200 75 C 215 75, 225 87, 225 102 C 225 117, 215 128, 200 128 C 185 128, 175 117, 175 102 C 175 87, 185 75, 200 75 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M145 220 C 145 160, 165 142, 200 142 C 235 142, 255 160, 255 220 L 270 300 L 130 300 Z" fill="#ffffff" opacity="0.75"/>
+  <rect x="15" y="15" width="370" height="270" rx="12" fill="none" stroke="#ff3366" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="25" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff3366">VIRAL AI PROMPT #50</text>
+  <text x="25" y="265" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">ROMANTIC COUPLE PROMPTS</text>
 </svg>
