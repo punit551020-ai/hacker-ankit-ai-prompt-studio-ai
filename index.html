@@ -1,16 +1,25 @@
-<!-- INTRO OVERLAY -->
-<div id="hacker-intro">
-  <h1 class="glitch-title">HACKER ANKIT</h1>
-  
-  <!-- ANIMATED IMAGE BANNER BOX -->
-  <div class="intro-preview-card">
-    <div class="slideshow-container">
-      <img id="intro-slide" src="assets/previews/1.svg" alt="Trending Prompt Preview">
-      <div class="slide-overlay">
-        <span class="slide-badge">VIRAL TRENDING PROMPTS</span>
-      </div>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Ankit - AI Prompt Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">🚀 Hacker Ankit AI Studio</div>
+        <input type="text" id="searchInput" placeholder="Search viral AI prompts..." onkeyup="filterPrompts()">
+    </header>
 
-  <button id="enter-btn" onclick="enterStudio()">EXPLORE 600+ TRENDING PROMPTS</button>
-</div>
+    <main>
+        <h1 class="heading">🔥 Top Trending Viral AI Prompts</h1>
+        <div id="promptContainer" class="prompt-grid">
+            <!-- Prompts will be dynamically generated here -->
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
