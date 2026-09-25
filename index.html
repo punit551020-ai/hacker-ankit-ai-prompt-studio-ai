@@ -5,18 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker Ankit - AI Prompt Studio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Flow AI Style Animated Intro Screen -->
+    <div id="intro-screen">
+        <div class="bg-animation">
+            <div class="slide-track">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80" alt="slide">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80" alt="slide">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80" alt="slide">
+                <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&q=80" alt="slide">
+            </div>
+        </div>
+        
+        <div class="intro-card">
+            <h1 class="logo-title">HACKER ANKIT</h1>
+            <p class="tagline">AI PROMPT STUDIO</p>
+            <p class="desc">Discover 600+ Trending & Viral AI Prompts with Instant 1-Click Copy</p>
+            <button class="enter-btn" onclick="closeIntro()">🚀 Open Prompt Studio (600 Prompts)</button>
+        </div>
+    </div>
+
+    <!-- Main Website Studio -->
     <header>
-        <div class="logo">🚀 Hacker Ankit AI Studio</div>
-        <input type="text" id="searchInput" placeholder="Search viral AI prompts..." onkeyup="filterPrompts()">
+        <div class="logo">⚡ Hacker Ankit Studio</div>
+        <input type="text" id="searchInput" placeholder="Search 600 prompts (Boy, Girl, Car, 3D)..." onkeyup="filterPrompts()">
     </header>
 
     <main>
-        <h1 class="heading">🔥 Top Trending Viral AI Prompts</h1>
+        <h1 class="main-heading">🔥 600 Viral AI Prompts Gallery</h1>
         <div id="promptContainer" class="prompt-grid">
-            <!-- Prompts will be dynamically generated here -->
+            <!-- 600 Prompts Loaded Here Automatically -->
         </div>
     </main>
 
