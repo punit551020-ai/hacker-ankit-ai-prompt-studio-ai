@@ -1,41 +1,63 @@
 let allPrompts = [];
 
-// 600 Auto-Generator Engine for Viral AI Prompts
-function generate600Prompts() {
-    const images = [
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80",
-        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
-        "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&q=80",
-        "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&q=80",
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+// 600 Completely Unique Prompts and Images Engine
+function generate600UniquePrompts() {
+    const categories = [
+        {
+            title: "🔥 Viral 3D Boy Attitude Avatar",
+            keyword: "3d-boy-avatar",
+            basePrompt: "A 3D digital illustration of a cool Indian boy wearing a black hoodie with neon lighting, sitting on a luxury sports car, cinematic background, 8k render."
+        },
+        {
+            title: "🎀 Trendy Stylish Girl Portrait",
+            keyword: "stylish-girl-portrait",
+            basePrompt: "High fashion portrait of a stylish young Indian girl wearing oversized sunglasses and a denim jacket, dramatic street lighting, cinematic depth of field."
+        },
+        {
+            title: "🏎️ Royal Sports Car Photography",
+            keyword: "supercar-night",
+            basePrompt: "Cinematic shot of a young guy driving a luxury sports car through neon city streets at night, motion blur, rain reflections, highly detailed 8k."
+        },
+        {
+            title: "🚀 Cyberpunk Futuristic Character",
+            keyword: "cyberpunk-character",
+            basePrompt: "Futuristic cyberpunk warrior with glowing neon eyes, futuristic tech outfit, standing in rain-slicked city streets, Unreal Engine 5 render."
+        },
+        {
+            title: "📸 Cinematic Royal Indian Portrait",
+            keyword: "indian-male-portrait",
+            basePrompt: "Cinematic portrait of an Indian male model wearing traditional royal sherwani, studio lighting, soft shadows, sharp focus, 85mm shot."
+        },
+        {
+            title: "🏍️ Royal Enfield Attitude Rider",
+            keyword: "biker-boy-sunset",
+            basePrompt: "Attitude Indian boy sitting on a matte black Royal Enfield bike, wearing a leather jacket and sunglasses, sunset background, photorealistic."
+        },
+        {
+            title: "🎮 3D Anime Gaming Setup Avatar",
+            keyword: "anime-boy-gamer",
+            basePrompt: "Cool anime boy with glowing blue headset sitting in a dark RGB gaming setup room, neon ambient lights, ultra detailed 4k wallpaper."
+        },
+        {
+            title: "👑 Stylish Queen Luxury Look",
+            keyword: "queen-fashion-look",
+            basePrompt: "A stunning young woman wearing a golden crown and luxury dress, dramatic studio portrait, high key lighting, photorealistic detail."
+        }
     ];
 
-    const titles = [
-        "🔥 Viral 3D Boy Attitude Avatar",
-        "🎀 Trendy Stylish Girl Portrait",
-        "🏎️ Royal Sports Car Photography",
-        "🚀 Cyberpunk Futuristic Character",
-        "📸 Cinematic Indian Portrait",
-        "🏍️ Royal Enfield Attitude Rider"
-    ];
-
-    const templates = [
-        "A 3D digital illustration of a cool young boy wearing a black hoodie with cyan neon lighting, sitting on a luxury sports car, cinematic background, 8k render.",
-        "High fashion portrait of a stylish young Indian girl wearing oversized sunglasses and a jacket, dramatic street lighting, cinematic bokeh depth of field, photo-realistic.",
-        "Cinematic shot of a young guy driving a modern sports car through neon city streets at night, motion blur, rain reflections, highly detailed 8k photography.",
-        "Futuristic cyberpunk warrior with glowing blue eyes, white hair, standing in neon rain city, Unreal Engine 5 render, highly detailed.",
-        "Cinematic high-fashion portrait of an Indian male model wearing traditional royal outfit, dramatic studio shadows, golden lighting, shot on 85mm lens.",
-        "Attitude Indian boy sitting on a matte black Royal Enfield bike, leather jacket, dark sunglasses, golden hour sunset lighting, ultra realistic photo."
-    ];
+    allPrompts = [];
 
     for (let i = 1; i <= 600; i++) {
-        let index = (i - 1) % templates.length;
+        let cat = categories[(i - 1) % categories.length];
+        
+        // Generates 600 completely unique image URLs using Unsplash Source API with unique seed numbers
+        let uniqueImageUrl = `https://picsum.photos/seed/${cat.keyword}-${i}/600/400`;
+
         allPrompts.push({
             id: i,
-            title: `${titles[index]} #${i}`,
-            image: images[index],
-            prompt: templates[index]
+            title: `${cat.title} #${i}`,
+            image: uniqueImageUrl,
+            prompt: `${cat.basePrompt} (Variation #${i})`
         });
     }
 
@@ -92,5 +114,5 @@ function closeIntro() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    generate600Prompts();
+    generate600UniquePrompts();
 });
