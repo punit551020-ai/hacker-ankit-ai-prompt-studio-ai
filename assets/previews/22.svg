@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111111"/><stop offset="1" stop-color="#8b0000"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="560" fill="#07070b"/>
+<rect x="10" y="10" width="980" height="540" rx="34" fill="url(#g)"/>
+<g filter="url(#blur)"><circle cx="949" cy="163" r="43" fill="white" opacity="0.16"/><circle cx="477" cy="208" r="27" fill="white" opacity="0.52"/><circle cx="919" cy="373" r="22" fill="white" opacity="0.27"/><circle cx="70" cy="347" r="34" fill="white" opacity="0.62"/><circle cx="721" cy="460" r="18" fill="white" opacity="0.44"/><circle cx="41" cy="290" r="51" fill="white" opacity="0.36"/><circle cx="204" cy="134" r="79" fill="white" opacity="0.62"/><circle cx="812" cy="82" r="53" fill="white" opacity="0.46"/><circle cx="284" cy="208" r="62" fill="white" opacity="0.31"/><circle cx="819" cy="165" r="47" fill="white" opacity="0.56"/></g>
+<path d="M0 450 Q250 300 500 450 T1000 450 V560 H0Z" fill="#050509" opacity=".72"/>
+<text x="50" y="90" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="white" opacity=".85">HORROR</text>
+<text x="50" y="470" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="white">AI IMAGE PREVIEW</text>
+<text x="50" y="510" font-family="Arial,sans-serif" font-size="18" fill="white" opacity=".75">Copy the prompt • Create your own image</text>
+</svg>

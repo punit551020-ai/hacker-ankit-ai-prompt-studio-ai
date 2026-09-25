@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0b3d"/><stop offset="1" stop-color="#7f5cff"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="560" fill="#07070b"/>
+<rect x="10" y="10" width="980" height="540" rx="34" fill="url(#g)"/>
+<g filter="url(#blur)"><circle cx="883" cy="149" r="23" fill="white" opacity="0.38"/><circle cx="721" cy="209" r="47" fill="white" opacity="0.19"/><circle cx="92" cy="492" r="77" fill="white" opacity="0.62"/><circle cx="911" cy="336" r="52" fill="white" opacity="0.58"/><circle cx="717" cy="347" r="26" fill="white" opacity="0.16"/><circle cx="820" cy="303" r="14" fill="white" opacity="0.46"/><circle cx="632" cy="474" r="55" fill="white" opacity="0.46"/><circle cx="527" cy="421" r="62" fill="white" opacity="0.52"/><circle cx="760" cy="249" r="29" fill="white" opacity="0.39"/><circle cx="183" cy="233" r="34" fill="white" opacity="0.41"/></g>
+<path d="M0 450 Q250 300 500 450 T1000 450 V560 H0Z" fill="#050509" opacity=".72"/>
+<text x="50" y="90" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="white" opacity=".85">SPACE</text>
+<text x="50" y="470" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="white">AI IMAGE PREVIEW</text>
+<text x="50" y="510" font-family="Arial,sans-serif" font-size="18" fill="white" opacity=".75">Copy the prompt • Create your own image</text>
+</svg>
